@@ -1,21 +1,141 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Guilherme de Castro</title>
-    </head>
-    <body>
-        <h1>Meu nome é Guilherme, tenho 18 anos e atualmente sou ator. Estudo teatro no Barracão Encena, que é onde foram apresentadas as peças nas quais participo.</h1>
-        <img src="https://bebelritzmann.com.br/images/artigos/201703/03/barracao.jpg" alt="Barracão Encena">
+<html lang="pt-br">
+<head>
+    <title>Guilherme de Castro</title>
+    <style>
+         body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-image: url(img/Design\ sem\ nome.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;}
 
-        <h1>Algumas das peças nas quais participei foram "O Brownie da Bruxa", que conta a história da criação do brownie, juntando um pouco de luta de classes e ervas. Essa, em específico, foi feita no módulo de improvisação, com peças completamente improvisadas e irreais, sempre levando para o lado do exagero.</h1>
-        <img src="img/26º FAE - Brownie da Buxa (Alta Resolução)-77.jpg">
+       
+        .page-wrapper {
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh;
+            padding: 0 2cm;}
 
-        <h1>Outra peça foi "Terror e Miseria no Terceiro Reich", com teatro político evidenciando as atrocidades do regime nazista, baseada no autor Bertolt Brecht.</h1>
+        .container {
+            padding: 20px;
+            background-color: #e7e7e7;
+            border-radius: 15px;
+            width: 100%;
+            max-width: 900px; 
+            position: relative; 
+            z-index: 1;}
 
-        <h2>Essas foram algumas amostras do meu portfólio como ator de teatro, mas ainda tenho trabalhos na publicidade (que não podem ser compartilhados) e um filme chamado "Maledicere", que entrará em cartaz este dia 06 no Cinemark Muller. Ingressos via Sympla.</h2>
+        h1, h2, h3, h4 {
+            color: #131313;
+            margin: 10px 0;}
 
-        <a href="https://www.sympla.com.br/evento/maledicere/2870791?referrer=www.google.com">Clique aqui para comprar ingressos para Maledicere</a>
+        h1 {
+            font-size: 30px;
+            text-decoration: underline; 
+            text-decoration-color: #9942e6; 
+            text-decoration-thickness: 4px;}
+            
 
-    </body>
+        h2 {
+            font-size: 24px;}
+
+        h3 {
+            font-size: 22px;}
+
+        h4 {
+            font-size: 23px;
+            font-style: italic;
+            font: Garamond;
+            text-decoration: underline;
+            text-decoration-color: #9942e6;
+            text-decoration-thickness: 4px;}
+            
+           
+img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin: 15px 0;
+            display: block; 
+            margin-left: auto;
+            margin-right: auto; 
+            border-radius: 15px; 
+            border: 5px solid #9942e6; 
+            position: relative; }
+
+        img::after {
+            content: '';
+            position: absolute;
+            top: 50%; 
+            left: 50%; 
+            width: 100%; 
+            height: 5px; 
+            background-color: #9942e6; 
+            border-radius: 50px; 
+            transform: translateX(-50%) translateY(-50%); }
+
+        a {
+            display: inline-block;
+            background-color: #9942e6;
+            color: rgb(0, 0, 0);
+            padding: 10px 20px;
+            text-decoration: whitesmoke;
+            font-size: 20px;
+            border-radius: 5px;
+            margin-top: 20px; }
+
+        .retangulo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #fafaf9;
+            z-index: -1;  /
+            border: solid 5px;
+            border-radius: 15px;
+            border-color: #9942e6;
+            padding: 2cm; }
+
+    </style>
+</head>
+<body>
+
+   
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="retangulo"></div> 
+
+            <h1>Guilherme de Castro</h1>
+            <h2>Sobre mim: Me chamo Guilherme, tenho 18 anos e sou ator pelo Barracão Encena. Tenho 4 peças profissionais apresentadas, comerciais e um filme.</h2>
+            <h2>Apresento uma pequena parte do meu trabalho aqui em forma de portfólio.</h2>
+
+            <img src="https://bebelritzmann.com.br/images/artigos/201703/03/barracao.jpg" alt="Barracão Encena">
+
+            <h1>O Brownie da Bruxa</h1>
+            <h2>Uma peça completamente improvisada e farsesca, contando a origem do brownie com um toque de luta de classes.</h2>
+            <img src="img/26º FAE - Brownie da Buxa (Alta Resolução)-77.jpg" alt="Cena de Brownie da Bruxa">
+
+            <h1>Terror e Miséria no Terceiro Reich</h1>
+            <h2>Baseada nos contos de Bertolt Brecht, retratamos os horrores do nazismo para evitar que se repita.</h2>
+            <img src="img/terror.jpg" alt="Cena de Terror e Miséria no Terceiro Reich">
+
+            <h1>Teatro e TV</h1>
+            <h2>Apesar de focar no teatro, também já apresentei comerciais (que não posso divulgar) e o filme Maledicere, que entrará em cartaz no Cinemark Muller no dia 6 de abril.</h2>
+
+            <a href="https://www.sympla.com.br/evento/maledicere/2870791?referrer=www.google.com" target="_blank">Ingressos para Maledicere</a>
+
+            <h2>Essa foi uma apresentação de alguns trabalhos que realizei como ator, mas estou sempre em novos projetos.</h2>
+            <h2>Atualmente, estamos ensaiando "A Megera Domada", de William Shakespeare, que será apresentado em 27/04 e 04/05.</h2>
+            <h3>Teatro é minha paixão, e espero que mais pessoas se apaixonem por essa arte.</h3>
+            <h4>"Venha pro teatro mesmo sem ter parente no palco."</h4>
+        </div>
+    </div>
+
+</body>
 </html>
-
